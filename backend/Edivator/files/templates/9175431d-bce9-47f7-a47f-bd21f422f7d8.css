@@ -1,0 +1,84 @@
+.editor {
+  /* 全局字体设置 */
+  font-family: "Arial", sans-serif;
+  background-color: #f4f6f9;
+  padding: 20px;
+  color: #2c3e50;
+
+  /* 标题样式 */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: #2c3e50;
+    border-bottom: 3px solid #2980b9;
+    padding-bottom: 0.75em;
+    margin-bottom: 1.5em;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.25em;
+    color: #2980b9;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+
+  /* 正文段落 */
+  p {
+    font-size: 1.25em;
+    line-height: 1.8;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+  }
+
+  /* 数字高亮 */
+  strong {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+
+  /* 表格样式 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+  }
+
+  th, td {
+    border: 1px solid #bdc3c7;
+    padding: 1em;
+    text-align: right;
+  }
+
+  th {
+    background-color: #ecf0f1;
+    color: #2980b9;
+    text-align: center;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  /* 总计行 */
+  tfoot td {
+    font-weight: bold;
+    background-color: #eaf1f8;
+    color: #2980b9;
+  }
+
+  /* 页脚注释 */
+  small {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+  }
+
+
+}

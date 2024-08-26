@@ -1,0 +1,80 @@
+.editor {
+  /* 全局字体设置 */
+  font-family: "Times New Roman", serif;
+  background-color: #f7f9fc;
+  padding: 20px;
+  color: #2c3e50;
+  line-height: 1.8;
+
+  /* 标题样式 */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.75em;
+    color: #2c3e50;
+    border-bottom: 4px solid #34495e;
+    padding-bottom: 0.75em;
+    margin-bottom: 1.5em;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #34495e;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    text-indent: 2em;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #7f8c8d;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-indent: 2em;
+  }
+
+  /* 正文内容 */
+  p {
+    font-size: 1.15em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+    text-indent: 2em;
+  }
+
+  /* 表格样式 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.75em;
+    text-align: left;
+  }
+
+  th {
+    background-color: #ecf0f1;
+    color: #34495e;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  /* 签名和日期部分 */
+  address {
+    margin-top: 3em;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #2c3e50;
+  }
+
+}

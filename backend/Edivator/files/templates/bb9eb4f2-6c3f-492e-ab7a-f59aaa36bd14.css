@@ -1,0 +1,54 @@
+.edivator {
+  /* 软件使用说明书样式 */
+
+  /* 一级标题 */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #34495e;
+    border-bottom: 2px dashed #95a5a6;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 二级标题 */
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    color: #2c3e50;
+    border-bottom: 1px dashed #95a5a6;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 三级标题 */
+  h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #7f8c8d;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 正文 */
+  p {
+    font-size: 1em;
+    line-height: 1.7;
+    color: #2c3e50;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify;
+  }
+
+  /* 全局字体 */
+  body {
+    font-family: "Verdana", sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+}

@@ -1,0 +1,83 @@
+.edivator {
+  /* 个人博客样式 */
+
+  /* 一级标题 */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 二级标题 */
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 三级标题 */
+  h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #555;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 正文 */
+  p {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #666;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify;
+  }
+
+  /* 超链接 */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* 表格 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+
+  /* 全局字体 */
+  body {
+    font-family: "Georgia", serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+}

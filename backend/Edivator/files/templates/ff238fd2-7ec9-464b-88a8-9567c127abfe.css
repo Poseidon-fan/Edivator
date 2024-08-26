@@ -1,0 +1,83 @@
+.editor {
+  /* 技术文档样式 */
+
+  /* 一级标题 */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 二级标题 */
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 三级标题 */
+  h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #7f8c8d;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 正文 */
+  p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #2c3e50;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify;
+  }
+
+  /* 超链接 */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* 表格 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+  }
+
+  th {
+    background-color: #ecf0f1;
+  }
+
+  /* 全局字体 */
+  body {
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+}

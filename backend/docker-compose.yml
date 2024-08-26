@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  backend:
+    image: edivator-django
+    build:
+      context: ./
+      dockerfile: dockerfile
+    volumes:
+      - ./Edivator:/app
+    ports:
+      - "8000:8000"
+    environment:
+      PYTHONUNBUFFERED: 1
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: unless-stopped

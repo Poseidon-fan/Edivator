@@ -1,0 +1,7 @@
+FROM python:3.9
+WORKDIR /app
+COPY ./Edivator /app/
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 libgl1 -y
+RUN pip install -r requirements.txt
+ENV PYTHONUNBUFFERED=1
+ENTRYPOINT ["python", "manage.py", "runserver", "0.0.0.0:8000"]
