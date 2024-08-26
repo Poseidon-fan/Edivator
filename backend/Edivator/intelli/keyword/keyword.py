@@ -1,8 +1,8 @@
 import requests
 import json
 
-API_KEY = "xASkIgrD30xmfUjd7uj7VXzq"
-SECRET_KEY = "ibeWsbuK1RF2WpS5Wxm89ZH4gSVIqo9h"
+API_KEY = ""
+SECRET_KEY = ""
 
 
 def get_keywords(content, title):

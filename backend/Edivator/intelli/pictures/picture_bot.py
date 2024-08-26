@@ -1,8 +1,8 @@
 import requests
 import json
 
-API_KEY = "9hqM3N3tFjzXDXzKVeLOq4TK"
-SECRET_KEY = "VCWaGgBORTOuK0vpuVhXGVx5NVZU97IH"
+API_KEY = ""
+SECRET_KEY = ""
 
 
 def get_access_token():

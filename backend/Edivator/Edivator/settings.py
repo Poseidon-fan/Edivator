@@ -96,11 +96,11 @@ WSGI_APPLICATION = "Edivator.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'edivator',   # 替换为您的数据库名称
-        'USER': 'niyuta',                # 默认用户名是root，如果不同请替换
-        'PASSWORD': 'Holmes@114514',    # 您提供的密码
-        'HOST': '101.201.173.118',  # 数据库主机地址
-        'PORT': '3306',                # 数据库端口
+        'NAME': '',   # 替换为您的数据库名称
+        'USER': '',                # 默认用户名是root，如果不同请替换
+        'PASSWORD': '',    # 您提供的密码
+        'HOST': '',  # 数据库主机地址
+        'PORT': '',                # 数据库端口
         'OPTIONS': { 'charset': 'utf8mb4', 'use_unicode': True, },
     }
 }

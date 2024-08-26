@@ -6,8 +6,8 @@ yichat = 'Yi-34B-Chat'
 class ChatBot:
     def __init__(self, stream=False, model='Yi-34B-Chat'):
         import os
-        os.environ["QIANFAN_ACCESS_KEY"] = "a280f2f159d54a54802596a52da19839"
-        os.environ["QIANFAN_SECRET_KEY"] = "f90a81edc1f64e35a350020e7fb3f7a1"
+        os.environ["QIANFAN_ACCESS_KEY"] = ""
+        os.environ["QIANFAN_SECRET_KEY"] = ""
         self.chat_comp = qianfan.ChatCompletion()
         self.stream = stream
         self.model_appointed = model

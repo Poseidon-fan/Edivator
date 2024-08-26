@@ -1,8 +1,8 @@
 import requests
 import json
 
-API_KEY = "XAfWvj0k0MfTww8Lk89BSVOB"
-SECRET_KEY = "YHEr1UI1SVD9Uo6ohoRo56kdlrEcGgkA"
+API_KEY = ""
+SECRET_KEY = ""
 
 import re
 

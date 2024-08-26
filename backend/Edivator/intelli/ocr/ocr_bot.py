@@ -9,8 +9,8 @@ import requests
 
 # from intelli.ocr.test_base64_img_sample import base64_str
 
-API_KEY = "fzyyZmKIoew2pPwOdhruX04V"
-SECRET_KEY = "WHinT6vz3PNLvcDX8fR4qNSbIAPMCOaS"
+API_KEY = ""
+SECRET_KEY = ""
 
 
 def pattern_recognition(base64_image):

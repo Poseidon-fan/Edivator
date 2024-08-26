@@ -5,8 +5,8 @@ import json
 
 from intelli.speech.test import base64_speech
 
-API_KEY = "XswLNPbjROFUPr658lbiq6k0"
-SECRET_KEY = "XjWqm5MjWn2KgoyjI0xKqUloHy0QnLTo"
+API_KEY = ""
+SECRET_KEY = ""
 
 
 def recognize(file_format, user_id, speech, dev_pid=1537):
